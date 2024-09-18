@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-18T16:25:26 IST" name="Suite" finished-at="2024-09-18T16:25:53 IST" duration-ms="26610">
+    <groups>
+      <group name="Regression">
+        <method signature="TC_Accountreg.verifyaccountpafe()[pri:1, instance:testCases.TC_Accountreg@3e8f7922]" name="verifyaccountpafe" class="testCases.TC_Accountreg"/>
+      </group> <!-- Regression -->
+      <group name="sanity">
+        <method signature="LoginTestCase.verifyloginpage()[pri:0, instance:testCases.LoginTestCase@3f1c5af9]" name="verifyloginpage" class="testCases.LoginTestCase"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="LoginTestCase.verifyloginpage()[pri:0, instance:testCases.LoginTestCase@3f1c5af9]" name="verifyloginpage" class="testCases.LoginTestCase"/>
+        <method signature="TC_Accountreg.verifyaccountpafe()[pri:1, instance:testCases.TC_Accountreg@3e8f7922]" name="verifyaccountpafe" class="testCases.TC_Accountreg"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-09-18T16:25:26 IST" name="Test" finished-at="2024-09-18T16:25:53 IST" duration-ms="26610">
+      <class name="testCases.LoginTestCase">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTestCase@3f1c5af9]" started-at="2024-09-18T16:25:27 IST" name="setup" finished-at="2024-09-18T16:25:32 IST" duration-ms="5167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyloginpage()[pri:0, instance:testCases.LoginTestCase@3f1c5af9]" started-at="2024-09-18T16:25:32 IST" name="verifyloginpage" finished-at="2024-09-18T16:25:34 IST" duration-ms="1862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginpage -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testCases.LoginTestCase@3f1c5af9]" started-at="2024-09-18T16:25:34 IST" name="closedriver" finished-at="2024-09-18T16:25:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- testCases.LoginTestCase -->
+      <class name="testCases.TC_Accountreg">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Accountreg@3e8f7922]" started-at="2024-09-18T16:25:34 IST" name="setup" finished-at="2024-09-18T16:25:36 IST" duration-ms="2529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyaccountpafe()[pri:1, instance:testCases.TC_Accountreg@3e8f7922]" started-at="2024-09-18T16:25:36 IST" name="verifyaccountpafe" finished-at="2024-09-18T16:25:53 IST" duration-ms="16616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaccountpafe -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testCases.TC_Accountreg@3e8f7922]" started-at="2024-09-18T16:25:53 IST" name="closedriver" finished-at="2024-09-18T16:25:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- testCases.TC_Accountreg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
